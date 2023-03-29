@@ -3,7 +3,7 @@ In this project, a mobile application was created with flutter using the ChatGPT
 
 https://user-images.githubusercontent.com/76579053/228670024-d22adb76-9583-4257-a435-ed4878061bde.mp4
 
-## Getting Started [US]
+## Getting Started
 
 ![Ekran Resmi 2023-03-29 17 21 18](https://user-images.githubusercontent.com/76579053/228670718-bb697f2e-5ce6-405d-ab89-6395a38ca4e6.png)
 
