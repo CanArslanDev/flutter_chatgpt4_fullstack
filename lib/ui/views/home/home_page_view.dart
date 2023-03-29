@@ -5,7 +5,6 @@ import 'package:flutter_chatgpt4_fullstack/ui/shared/text_style.dart';
 import 'package:flutter_chatgpt4_fullstack/ui/shared/ui_helper.dart';
 import 'package:flutter_chatgpt4_fullstack/ui/views/home/sub/login_view.dart';
 import 'package:get/get.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 import '../../../core/getx/controllers/home_controller.dart';

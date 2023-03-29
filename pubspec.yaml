@@ -39,6 +39,9 @@ dependencies:
   responsive_sizer: ^3.1.1
   google_fonts: ^4.0.3
   simple_animation_progress_bar: ^1.2.0
+  awesome_icons: ^1.1.0
+  flutter_mentions: ^2.0.1
+  portal: ^1.0.0+3
 
 dev_dependencies:
   flutter_test:

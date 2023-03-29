@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050987843857",
+    "project_id": "chatgpt4-4aecc",
+    "storage_bucket": "chatgpt4-4aecc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050987843857:android:af1c59a9a4ea0bf3127cb0",
+        "android_client_info": {
+          "package_name": "com.example.flutter_chatgpt4_fullstack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050987843857-d653okjkoqd6vu564grjhb9uvb05lv6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm7GUlt7djk0fOaH-eKrQFPC8ipUjcFZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050987843857-d653okjkoqd6vu564grjhb9uvb05lv6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
