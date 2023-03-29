@@ -5,7 +5,6 @@ https://user-images.githubusercontent.com/76579053/228670024-d22adb76-9583-4257-
 
 ## Getting Started
 
-![Ekran Resmi 2023-03-29 17 21 18](https://user-images.githubusercontent.com/76579053/228670718-bb697f2e-5ce6-405d-ab89-6395a38ca4e6.png)
 
 ### English
 First you need to make your own firebase connection to the app.<br>
