@@ -1,6 +1,7 @@
 import 'dart:async';
 
-import 'package:get/get_rx/src/rx_types/rx_types.dart';
+import 'package:flutter_chatgpt4_fullstack/core/getx/routes/routes.dart';
+import 'package:get/get.dart';
 
 import 'base_controller.dart';
 
@@ -19,6 +20,7 @@ class HomePageController extends BaseController {
   void skipPage() {
     //It is used in page orientation.
     invisibleAllWidgets.value = true;
+    Timer(const Duration(seconds: 1), () => Get.offAndToNamed(Routes.mainPage));
   }
 
   @override

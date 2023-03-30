@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mentions/flutter_mentions.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -5,7 +6,9 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'core/getx/pages/pages.dart';
 import 'core/getx/routes/routes.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -27,9 +30,10 @@ class MyApp extends StatelessWidget {
             secondary: const Color(0xFF32344B),
             onSecondary: const Color(0xFF0197FF),
             onBackground: const Color(0xFF232738),
+            onSurface: const Color(0xFF3B58D1),
           ),
         ),
-        initialRoute: Routes.mainPage,
+        initialRoute: Routes.homePage,
         getPages: Pages.pages,
       ),
     );
