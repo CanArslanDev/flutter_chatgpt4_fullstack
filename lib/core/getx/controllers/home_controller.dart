@@ -27,8 +27,6 @@ class HomePageController extends BaseController {
   void onInit() {
     //Timer and mainButtonsPrimary/mainButtonsSecondary variables are used to load startup animations
     super.onInit();
-    // ignore: avoid_print
-    print("Starting home page controller");
     Timer(
       const Duration(seconds: 1),
       () {
