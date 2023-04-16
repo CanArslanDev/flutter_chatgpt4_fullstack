@@ -74,7 +74,8 @@ class HomePage extends GetView<HomePageController> {
                 onTap: () => controller.skipPage(),
                 child: Container(
                   padding: EdgeInsets.all(SpaceValue().low),
-                  child: Text("Skip", style: homePageButtonsTextStyle),
+                  child:
+                      Text("Skip", style: TextStyles.homePageButtonsTextStyle),
                 ),
               )),
         ));
@@ -192,7 +193,7 @@ Widget _getStartedButton(int buttonValue, VoidCallback callback) => Padding(
           child: Center(
               child: Text(
             (buttonValue == 1) ? "Get Started" : "Continue",
-            style: homePageButtonsBoldTextStyle,
+            style: TextStyles.homePageButtonsBoldTextStyle,
           )),
         ),
       ),
@@ -217,7 +218,7 @@ Widget get skipPageButton => Padding(
         child: Center(
             child: Text(
           "Skip Page",
-          style: homePageButtonsBoldTextStyle,
+          style: TextStyles.homePageButtonsBoldTextStyle,
         )),
       ),
     );

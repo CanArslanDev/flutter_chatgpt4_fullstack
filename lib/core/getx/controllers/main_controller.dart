@@ -64,8 +64,6 @@ class MainPageController extends BaseController {
   @override
   void onInit() async {
     super.onInit();
-    // ignore: avoid_print
-    print("Starting main page controller");
     chatGPTIcon = await FirebaseService().getChatGPTIcon();
     Timer(const Duration(milliseconds: 200),
         () => startingAnimation.value = true);

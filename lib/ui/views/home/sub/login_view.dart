@@ -132,7 +132,7 @@ Widget stepBar(bool stepBarValue, int step) => AnimatedSlide(
               alignment: Alignment.centerLeft,
               child: Text(
                 "Step $step/3",
-                style: homePageButtonsBoldTextStyle,
+                style: TextStyles.homePageButtonsBoldTextStyle,
               ),
             ),
           ),
@@ -214,7 +214,8 @@ Widget mainText(ValueNotifier<bool> value) => ValueListenableBuilder(
           duration: const Duration(seconds: 1),
           opacity: (value.value == true) ? 1 : 0,
           child: Text("Try the new ChatGPT-4!",
-              textAlign: TextAlign.center, style: homePageTitleTextStyle),
+              textAlign: TextAlign.center,
+              style: TextStyles.homePageTitleTextStyle),
         ),
       );
     });
@@ -231,7 +232,7 @@ Widget descText(ValueNotifier<bool> value) => ValueListenableBuilder(
           child: Text(
               "This App allows you to try\nChatGPT-4 both in text and image.",
               textAlign: TextAlign.center,
-              style: homePageDescTextStyle),
+              style: TextStyles.homePageDescTextStyle),
         ),
       );
     });
