@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_chatgpt4_fullstack/ui/shared/text_style.dart';
 import 'package:flutter_chatgpt4_fullstack/ui/shared/ui_helper.dart';
-import 'package:flutter_chatgpt4_fullstack/ui/views/home/sub/login_view.dart';
+import 'package:flutter_chatgpt4_fullstack/ui/views/home/sub/home_page_stepper.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 

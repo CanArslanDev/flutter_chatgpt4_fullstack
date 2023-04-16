@@ -1,15 +1,17 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt4_fullstack/core/getx/controllers/home_controller.dart';
 import 'package:flutter_chatgpt4_fullstack/ui/shared/text_style.dart';
-import 'package:get/get.dart';
+import 'package:flutter_chatgpt4_fullstack/ui/shared/ui_helper.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/src/extension_navigation.dart';
+import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
+import 'package:get/get_state_manager/src/simple/get_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
+import '../../../../core/getx/controllers/home_controller.dart';
 import 'package:simple_animation_progress_bar/simple_animation_progress_bar.dart';
-
-import '../../../shared/ui_helper.dart';
 
 class HomePageStepper extends GetView<HomePageController> {
   const HomePageStepper({super.key});
